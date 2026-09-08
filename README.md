@@ -272,21 +272,8 @@ Navigate to: `http://localhost:5173`
 
 ---
 
-## 9. Telegram Bot Integration
 
-1. Create a bot using Telegram's official [@BotFather](https://t.me/BotFather) and copy your bot token.
-2. Place the token into `backend/.env`:
-   ```env
-   TELEGRAM_BOT_TOKEN=8853668826:AAH_ekXmG-NvmLsTTL542sqIqObCy2LFxdw
-   ```
-3. Start the backend: `node src/server.js`.
-4. Open Telegram and message your bot (`@KiranaOpsAgent2026_bot`).
-5. Send `/start` or natural messages like *"How much Maggi is in stock?"* or *"make a bill: 2 Maggi, UPI"*.
-6. The bot will automatically upload generated `.pdf` invoices and `.pptx` reports directly into the chat!
-
----
-
-## 10. REST API Documentation
+## 9. REST API Documentation
 
 | Method | Endpoint | Description |
 |---|---|---|
