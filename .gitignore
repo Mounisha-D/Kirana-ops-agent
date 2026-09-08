@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+backend/.env
+
+# SQLite Database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+backend/kirana.db
+backend/kirana.db-shm
+backend/kirana.db-wal
+
+# Build artifacts
+dist/
+frontend/dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated documents (invoices and reports)
+backend/generated/invoices/*.pdf
+backend/generated/reports/*.pptx
+!backend/generated/invoices/.gitkeep
+!backend/generated/reports/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
