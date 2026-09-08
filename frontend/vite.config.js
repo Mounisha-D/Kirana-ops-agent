@@ -2,6 +2,7 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/nebula-supermarket-ops-agent/',
   plugins: [react()],
   server: {
     port: 5173,
