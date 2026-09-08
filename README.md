@@ -245,7 +245,6 @@ Inside `backend/.env`:
 PORT=5000
 TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
 ```
-*(No OpenAI or external API keys are required).*
 
 ---
 
